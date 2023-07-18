@@ -1,0 +1,8 @@
+{
+  "name": "tokenomics",
+  "version": "1.0.0",
+  "scripts": {
+    "codegen": "mustache config/$NETWORK.json template.yaml > subgraph.yaml && graph codegen",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ dinngo/radiant-tokenomics-$NETWORK"
+  }
+}

@@ -1,0 +1,4 @@
+build/
+generated/
+node_modules/
+subgraphs/galaxy/src/constants.templete.ts

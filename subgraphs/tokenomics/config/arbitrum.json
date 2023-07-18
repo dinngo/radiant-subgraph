@@ -1,0 +1,7 @@
+{
+  "network": "arbitrum-one",
+  "rdnt": {
+    "address": "0x3082CC23568eA640225c2467653dB90e9250AaA0",
+    "startBlock": 69313622
+  }
+}
